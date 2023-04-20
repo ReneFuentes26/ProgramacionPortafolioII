@@ -2,7 +2,7 @@ import { createRouter, createWebHistory } from 'vue-router';
 
 const routes = [
     {
-      path: '/ProgramacionPortafolioII/Introduccion',
+      path: '/Introduccion',
       name: 'Introduccion',
       component: () =>  import('./components/Introduccion.vue'),
     },
@@ -12,22 +12,22 @@ const routes = [
       component: () => import('./components/Portada.vue')
     },
     {
-      path: '/ProgramacionPortafolioII/Investigaciones',
+      path: '/Investigaciones',
       name: 'Investigaciones',
       component: () => import('./components/Contenidos/Investigaciones.vue')
     },
     {
-    path: '/ProgramacionPortafolioII/SumariodeContenidos',
+    path: '/SumariodeContenidos',
     name: 'SumariodeContenidos',
     component: () => import('./components/Contenidos/SumariodeContenidos.vue')
     },
     {
-    path: '/ProgramacionPortafolioII/Tareas',
+    path: '/Tareas',
     name: 'Tareas',
     component: () => import('./components/Contenidos/Tareas.vue')
     },
     {
-      path: '/ProgramacionPortafolioII/Jornalizacion',
+      path: '/Jornalizacion',
       name: 'Jornalizacion',
       component: () => import('./components/Contenidos/Jornalizacion.vue')
     }
