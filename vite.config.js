@@ -3,9 +3,9 @@ import vue from '@vitejs/plugin-vue'
 
 // https://vitejs.dev/config/
 export default defineConfig({
- base: '/ProgramacionPortafolioII/',
   plugins: [vue()],
   optimizeDeps: {
     include: ['bootstrap'],
   },
+  base: '/ProgramacionPortafolioII/'
 });
